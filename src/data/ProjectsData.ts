@@ -1,0 +1,115 @@
+export type Project = {
+  id: number;
+  title: string;
+  description: string;
+  status: string;
+  stack: string;
+  longDescription: string;
+  why: string;
+  whyBullets: string[];
+  projectStatus: string;
+  learned: string;
+  livePreviewInfo: string;
+  tech: string[];
+  image: string;
+  screenshots: string[];
+  liveDemo: string;
+  github?: string;
+  frontendGithub?: string;
+  backendGithub?: string;
+};
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "Budget App",
+    description:
+      "Een moderne budget applicatie met React, TypeScript en Chakra UI.",
+    status: "In actieve ontwikkeling",
+    stack:
+      "Vite, React 19, Chakra UI 3.27, React Hook Form 7.63, Node/Express, Prisma, Supabase, Render, Vercel",
+
+    longDescription:
+      "De Budget App is een moderne full‑stack applicatie waarmee gebruikers transacties kunnen importeren, categoriseren en analyseren. Het project is opgezet als een real‑world SaaS‑architectuur: frontend op Vercel, backend op Render en een Postgres‑database op Supabase. Het doel van dit project is om een schaalbare, professionele structuur neer te zetten die later kan uitgroeien tot een complete persoonlijke finance tool.",
+
+    why: "Dit project laat zien hoe ik werk: iteratief, gestructureerd en met een sterke focus op architectuur.",
+
+    whyBullets: [
+      "een volledige full‑stack omgeving kan opzetten",
+      "moderne hosting‑platforms kan combineren",
+      "databases, API’s en background scripts kan integreren",
+      "problemen kan oplossen (deployment, TypeScript, cold starts, migrations)",
+      "production‑ready keuzes kan maken",
+    ],
+
+    projectStatus:
+      "De app is nog in ontwikkeling. Ik heb ervoor gekozen om hem tóch op te nemen omdat het mijn proces laat zien: bouwen, deployen, testen, verbeteren. De huidige versie bevat al de kernfunctionaliteit en een volledig werkende technische basis.",
+
+    learned:
+      "Ik heb geleerd hoe je een volledige full‑stack omgeving opzet, moderne hosting‑platforms combineert, databases en API’s integreert, problemen oplost (deployment, TypeScript, cold starts, migrations) en production‑ready keuzes maakt.",
+
+    livePreviewInfo:
+      "De app is live beschikbaar. Cold starts kunnen voorkomen omdat de backend op een free tier draait, dit is normaal tijdens de ontwikkelfase. Ik heb om dit te voorkomen een health check gemaakt die bij het openen van de app automatisch een request naar de backend stuurt, zodat deze 'wakker' wordt, de knop 'Start App' wordt geactiveerd zodra de backend \"wakker\" is.",
+
+    tech: ["React", "TypeScript", "Chakra UI", "Supabase"],
+    image:
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1781994740/rszrfc9n7jvlgidbyhwb.png",
+    screenshots: [
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782043413/wn3m25yt27qjscutnudz.png",
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782043544/zp7c3dlk8kbujx6nlnxs.png",
+    ],
+    liveDemo: "https://budget-app-frontend-orpin.vercel.app/",
+    frontendGithub:
+      "https://github.com/Gudo1971/budget-app-frontend/tree/portfolio-showcase",
+    backendGithub:
+      "https://github.com/Gudo1971/budget-app-backend/tree/portfolio-showcase",
+  },
+
+  {
+    id: 2,
+    title: "StayBnB",
+    description: "Een full‑stack Airbnb‑clone met Node, Express en React.",
+    status: "In actieve ontwikkeling",
+    stack: "React, Chakra UI, Node/Express, Prisma, Supabase, Vercel, Render",
+
+    longDescription:
+      "StayBnB is een Airbnb‑achtige applicatie waarin ik experimenteer met UI‑design, component‑architectuur en full‑stack workflows. Het project is opgezet om mijn vaardigheden in frontend‑design, backend‑structuur en database‑modellering te versterken.",
+
+    why: "StayBnB laat zien dat ik werk aan projecten die dicht bij echte SaaS‑apps liggen.",
+
+    whyBullets: [
+      "complexe UI‑componenten kan ontwerpen",
+      "een schaalbare backend kan opzetten",
+      "een moderne database‑architectuur kan modelleren",
+      "een volledige full‑stack pipeline kan deployen",
+      "iteratief werk en continu verbeter",
+    ],
+
+    projectStatus:
+      "Ook dit project is nog in ontwikkeling. Ik heb het bewust opgenomen omdat het mijn manier van denken en bouwen laat zien. De huidige versie toont al een solide basis en een professionele structuur.",
+
+    learned:
+      "Ik heb geleerd hoe je een Node/Express API opzet, hoe je JWT‑authenticatie implementeert, hoe je een frontend koppelt aan een backend, hoe je data valideert en hoe je een schaalbare folderstructuur maakt. Ook heb ik veel geleerd over UX‑flows zoals zoeken, filteren, pagineren en boeken. Daarnaast heb ik mijn kennis van React‑componentarchitectuur en state management verder verdiept.",
+
+    livePreviewInfo:
+      "De app draait live op Vercel. Omdat de backend op een free tier draait, kan de eerste request soms iets trager zijn, dit is normaal tijdens de ontwikkelfase.",
+
+    tech: ["React", "Node", "Express", "JWT", "MongoDB"],
+
+    image:
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1781869260/ns18gehyzoit7woe9n2p.png",
+
+    screenshots: [
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1767324896/vg4ubtmezwdbgdfbbwjf.png",
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1767324895/rl8k7n2lhtzmbrabgbcp.png",
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1767324892/jnqliaviqqiconhrdsxy.png",
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1767324885/qjidyqlqr13bnqpjdnrs.png",
+    ],
+
+    liveDemo: "https://bed-final-project.vercel.app/",
+    frontendGithub:
+      "https://github.com/Gudo1971/bed-final-project/tree/portfolio-showcase",
+    backendGithub:
+      "https://github.com/Gudo1971/bed-final-project/tree/portfolio-showcase-backend",
+  },
+];
