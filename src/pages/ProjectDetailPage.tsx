@@ -144,6 +144,40 @@ export function ProjectDetailPage() {
         </Box>
       )}
 
+      {/* ⭐ Demo Login (alleen tonen als aanwezig) */}
+      {project.demoLogin && (
+        <Box mb={8}>
+          <Heading size="md" mb={2}>
+            Demo Login
+          </Heading>
+
+          <Text color="subtle" mb={2}>
+            Gebruik deze demo‑gegevens om de host‑omgeving te bekijken:
+          </Text>
+
+          <Box
+            bg="card"
+            p={4}
+            borderRadius="md"
+            border="1px solid"
+            borderColor="border"
+            fontSize="sm"
+            color="text"
+          >
+            <Text>
+              <strong>Email:</strong> {project.demoLogin.email}
+            </Text>
+            <Text>
+              <strong>Wachtwoord:</strong> {project.demoLogin.password}
+            </Text>
+          </Box>
+
+          <Text color="subtle" mt={3}>
+            {project.demoLogin.note}
+          </Text>
+        </Box>
+      )}
+
       {/* ⭐ Live Preview */}
       <Box mb={8}>
         <Heading size="md" mb={2}>
