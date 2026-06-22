@@ -10,7 +10,6 @@ import {
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX, FiDownload, FiSun, FiMoon } from "react-icons/fi";
 import { useEffect, useState } from "react";
-import cvFile from "../assets/cv nieuwe stijl.pdf";
 
 const themeVariables = {
   light: {
@@ -32,6 +31,7 @@ const themeVariables = {
     "--colors-accent-hover": "#4299e1",
   },
 };
+const cvFile = "/cv-gudo-gieles.pdf";
 
 export function Header() {
   const { open, onOpen, onClose } = useDisclosure();
