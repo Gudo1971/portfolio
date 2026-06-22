@@ -17,6 +17,11 @@ export type Project = {
   github?: string;
   frontendGithub?: string;
   backendGithub?: string;
+  demoLogin?: {
+    email: string;
+    password: string;
+    note: string;
+  };
 };
 
 export const projects: Project[] = [
@@ -111,5 +116,11 @@ export const projects: Project[] = [
       "https://github.com/Gudo1971/bed-final-project/tree/portfolio-showcase",
     backendGithub:
       "https://github.com/Gudo1971/bed-final-project/tree/portfolio-showcase-backend",
+
+    demoLogin: {
+      email: "johndoe@email.com",
+      password: "johnDoe123",
+      note: "Dit is een veilige demo‑omgeving met testdata. Je kunt listings aanmaken, bewerken en verwijderen, en de volledige host‑flow testen.",
+    },
   },
 ];
