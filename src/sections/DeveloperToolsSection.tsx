@@ -24,7 +24,7 @@ export function DeveloperToolsSection() {
       </Heading>
 
       <Box
-        maxW="1190px"
+        maxW="1800px"
         mx="auto"
         p={5}
         borderRadius="lg"
