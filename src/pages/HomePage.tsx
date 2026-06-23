@@ -17,7 +17,13 @@ export function HomePage() {
         <DeveloperToolsSection />
       </Box>
 
-      <Box maxW="1800px" mx="auto" px={{ base: 4, md: 8 }} bg="var(--colors-bg)" color="var(--colors-text)">
+      <Box
+        maxW="1800px"
+        mx="auto"
+        px={{ base: 4, md: 8 }}
+        bg="var(--colors-bg)"
+        color="var(--colors-text)"
+      >
         <SimpleGrid columns={{ base: 1, md: 3 }} gap={4} py={12}>
           <AboutPreview />
           <SkillsPreview />

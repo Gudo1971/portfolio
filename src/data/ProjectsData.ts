@@ -164,8 +164,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782216031/i8xdwdavckkmirbstcbf.png",
     ],
 
-    liveDemo: "",
-    github:
-      "https://react-chakra-v3-template-33zat936u-gudo1971s-projects.vercel.app",
+    liveDemo: "https://react-chakra-v3-template.vercel.app/",
+    github: "https://github.com/Gudo1971/react-chakra-v3-template",
   },
 ];
