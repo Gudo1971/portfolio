@@ -17,7 +17,7 @@ export function HeroPreview() {
       pt={{ base: 6, md: 10 }}
       pb={{ base: 2, md: 3 }}
       px={{ base: 4, md: 8 }}
-      maxW="1920px"
+      maxW="1800px"
       mx="auto"
       w="100%"
       bg="var(--colors-bg)"

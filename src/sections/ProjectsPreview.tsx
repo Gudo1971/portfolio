@@ -19,7 +19,7 @@ export function ProjectsPreview() {
       pt={1}
       pb={{ base: 8, md: 12 }}
       px={{ base: 4, md: 8 }}
-      maxW="1920px"
+      maxW="1800px"
       mx="auto"
     >
       <Heading mt={0} mb={6} color="text">

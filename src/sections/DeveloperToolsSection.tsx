@@ -12,20 +12,12 @@ import { Link as RouterLink } from "react-router-dom";
 
 export function DeveloperToolsSection() {
   return (
-    <Box
-      pt={1}
-      pb={{ base: 8, md: 12 }}
-      px={{ base: 4, md: 8 }}
-      maxW="1800px"
-      mx="auto"
-    >
+    <Box pt={1} pb={{ base: 8, md: 12 }} px={{ base: 4, md: 8 }} maxW="1800px" mx="auto">
       <Heading mt={0} mb={6} color="text">
         Developer Tools
       </Heading>
 
       <Box
-        maxW="1800px"
-        mx="auto"
         p={5}
         borderRadius="lg"
         boxShadow="md"
@@ -65,6 +57,7 @@ export function DeveloperToolsSection() {
             </WrapItem>
           ))}
         </Wrap>
+
         <Flex justify="space-between" align="center" mt={4}>
           <RouterLink to="/projects/3">
             <Text
