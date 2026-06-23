@@ -165,6 +165,7 @@ export const projects: Project[] = [
     ],
 
     liveDemo: "",
-    github: "https://github.com/Gudo1971/react-chakra-v3-template",
+    github:
+      "https://react-chakra-v3-template-33zat936u-gudo1971s-projects.vercel.app",
   },
 ];
