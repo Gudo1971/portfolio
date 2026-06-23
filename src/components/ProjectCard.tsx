@@ -14,10 +14,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
       borderRadius="12px"
       p={5}
       bg="card"
+      transition="0.2s"
       _hover={{
         borderColor: "blue.400",
         transform: "translateY(-4px)",
-        transition: "0.2s",
       }}
     >
       <Image
@@ -25,8 +25,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
         alt={project.title}
         borderRadius="12px"
         width="100%"
-        height="520px" // <<< vaste hoogte
-        objectFit="cover" // <<< snijdt netjes bij
+        height="520px"
+        objectFit="cover"
       />
 
       <Heading size="md" mb={2} mt={6} color="text">
@@ -58,9 +58,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <RouterLink to={`/projects/${project.id}`}>
         <Button
           w="full"
-          bg="blue.500"
+          bg="var(--colors-accent)"
           color="white"
-          _hover={{ bg: "blue.600" }}
+          _hover={{ bg: "var(--colors-accent-hover)" }}
         >
           Bekijk project
         </Button>

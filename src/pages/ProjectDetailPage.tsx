@@ -31,7 +31,7 @@ export function ProjectDetailPage() {
       py={10}
       maxW="900px"
       mx="auto"
-      bg="bg"
+      bg="var(--colors-bg)"
       color="text"
     >
       {/* ⭐ Breadcrumb */}

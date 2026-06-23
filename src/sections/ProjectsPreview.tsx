@@ -26,8 +26,8 @@ export function ProjectsPreview() {
         Projects
       </Heading>
 
-      <SimpleGrid columns={{ base: 1, md: 2 }} gap={6}>
-        {projects.map((project) => {
+      <SimpleGrid columns={{ base: 1, md: 3 }} gap={6}>
+        {projects.slice(0, 3).map((project) => {
           const sourceLink = project.frontendGithub ?? project.github;
 
           return (
@@ -51,15 +51,16 @@ export function ProjectsPreview() {
                 alt={project.title}
                 borderRadius="12px"
                 width="100%"
-                height="720px" // <<< vaste hoogte
-                objectFit="cover" // <<< snijdt netjes bij
+                height="720px"
+                objectFit="cover"
+                mb={6}
               />
 
               <Heading size="md" mb={2} color="text">
                 {project.title}
               </Heading>
 
-              <Text color="subtle" mb={3}>
+              <Text color="subtle" mb={3} height="100px">
                 {project.description}
               </Text>
 

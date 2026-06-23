@@ -123,4 +123,48 @@ export const projects: Project[] = [
       note: "Dit is een veilige demo‑omgeving met testdata. Je kunt listings aanmaken, bewerken en verwijderen, en de volledige host‑flow testen.",
     },
   },
+  {
+    id: 3,
+    title: "react-chakra-v3-template",
+    description:
+      "Starter template voor moderne React-apps met Chakra UI v3, semantic tokens en een schaalbare component-architectuur.",
+    status: "Gereleased",
+    stack:
+      "Vite, React 19, Chakra UI 3.27, TypeScript, Semantic Tokens, React Hook Form, File-based Routing",
+
+    longDescription:
+      "Deze template is gebouwd om snel moderne React-projecten te starten met een professionele basis. Het bevat een volledig opgezet themasysteem met semantic tokens, dark/light/system mode, een schaalbare component-architectuur, utility-componenten, een voorbeeldlayout, en best practices voor mappenstructuur, styling en state management. Het doel is om een solide fundament te bieden waarmee nieuwe projecten direct production-ready kunnen starten.",
+
+    why: "Ik heb deze template gemaakt omdat ik merkte dat ik bij elk nieuw project dezelfde setup opnieuw moest bouwen. Door een professionele basis te creëren, kan ik sneller itereren, consistenter werken en direct focussen op functionaliteit in plaats van boilerplate.",
+
+    whyBullets: [
+      "een schaalbare component-architectuur kan opzetten",
+      "semantic tokens en theming professioneel kan implementeren",
+      "dark/light/system mode volledig kan integreren",
+      "een moderne React-setup kan maken met Vite en React 19",
+      "developer experience kan optimaliseren met tooling en structuur",
+    ],
+
+    projectStatus:
+      "De template is volledig functioneel en wordt actief gebruikt als basis voor nieuwe projecten. Ik blijf hem uitbreiden met nieuwe patterns, utilities en best practices.",
+
+    learned:
+      "Ik heb geleerd hoe je een professioneel themasysteem opzet, hoe je semantic tokens beheert, hoe je een schaalbare component-architectuur maakt, en hoe je een template bouwt die zowel flexibel als robuust is voor toekomstige projecten.",
+
+    livePreviewInfo:
+      "De template is beschikbaar op GitHub. Je kunt hem direct clonen en gebruiken als basis voor je eigen projecten. De README bevat installatie-instructies en uitleg over de structuur.",
+
+    tech: ["React", "Chakra UI v3", "TypeScript", "Vite"],
+
+    image:
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782215808/jwclpwlhrh7pgjrvlopr.png",
+
+    screenshots: [
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782215906/tnf9kbvkstnjhzwb8jmb.png",
+      "https://res.cloudinary.com/dkpp5c90a/image/upload/v1782216031/i8xdwdavckkmirbstcbf.png",
+    ],
+
+    liveDemo: "",
+    github: "https://github.com/Gudo1971/react-chakra-v3-template",
+  },
 ];
