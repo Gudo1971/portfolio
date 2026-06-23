@@ -6,7 +6,6 @@ import {
   WrapItem,
   Badge,
   Flex,
-  Button,
 } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
