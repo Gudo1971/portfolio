@@ -26,7 +26,7 @@ export function HomePage() {
           columns={{ base: 1, md: 3 }}
           gap={6}
           py={12}
-          maxW="1190px"
+          maxW="1800px"
           mx="auto"
         >
           <AboutPreview />
